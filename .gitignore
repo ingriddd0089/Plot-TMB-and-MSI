@@ -1,0 +1,12 @@
+# 隱藏整個 notebooks 
+notebooks/
+
+# Jupyter 自動產生的暫存檔案
+.ipynb_checkpoints/
+echo "notebooks/" >> .gitignore
+echo "data/" >> .gitignore
+echo "*.tiff" >> .gitignore
+echo "*.png" >> .gitignore
+echo "*.ipynb" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".DS_Store" >> .gitignore
